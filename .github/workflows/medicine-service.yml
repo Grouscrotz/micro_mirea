@@ -6,7 +6,7 @@ on:
       - ".github/workflows/medicine-service.yml"
   pull_request:
     paths:
-      - "medicine_service/**"
+      - "medicines_service/**"
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
